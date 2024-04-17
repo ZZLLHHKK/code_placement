@@ -9,4 +9,4 @@
 ***If there's something wrong, please forgive me***  
 ***~~有可能錯，但機率很低~~***  
 ***thank you!***    
-***寫題目紀錄的地方 都是透過zerojudge通過的 到UVA網站上不一定正確***
+
