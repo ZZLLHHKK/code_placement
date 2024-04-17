@@ -4,7 +4,7 @@ using namespace std;
 class Solve {
 private:
     int s = 0, a = 0, f = 0;
-    int X[1000] = {}, Y[1000] = {0}; 
+    int X[10000000] = {0}, Y[10000000] = {0}; 
 public:
     void read() {
         cin >> s >> a >> f;
