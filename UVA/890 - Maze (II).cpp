@@ -63,10 +63,13 @@ int main() {
         else if (cmd == 'R') maze[checkX][++checkY] = ' ';
 
         for (int i = 0; i < M + 1; ++i) {
-            for (int j = 0; j < (N * 2) + 1; ++j) 
-                cout << maze[i][j];
+            for (int j = 0; j < (N * 2) + 1; ++j) {
+                if (i == 0 && j == N * 2) continue;
+                else cout << maze[i][j];
+            }
             cout << endl;
         }
         memset(maze, ' ', sizeof(maze));
+        cout << endl;
     }
 }
