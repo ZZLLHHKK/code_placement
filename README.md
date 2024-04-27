@@ -12,6 +12,6 @@
 
 **2024/4/27 update**  
   I was trying to carry out some problem with the UVA code   
-  There are still some error when I send the copde to the online judge    
+  There are still some error when I send the code to the online judge    
   So please refer to other people's code  
   Thank you
