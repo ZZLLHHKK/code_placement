@@ -2,7 +2,7 @@
 #define pii pair<int, int>
 using namespace std;
 //priority_queue practice , 註: pq 比較默認由大到小 因此排序函式邏輯要相反 ^_^
-struct cmp1 { 
+struct cmp1 {
     bool operator()(const pii &p1, const pii &p2) {
         return p1.first > p2.first;
     }
@@ -17,10 +17,10 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0), cout.tie(0);
     int t1, t2, k, p, t, m, ansp = 0, ansf = 0;
-    cin >> t1 >> t2 >> k >> p;
+    scanf("%d%d%d%d", &t1, &t2, &k, &p);
 
     priority_queue<pii, vector<pii>, cmp1> pq; 
-    while (cin >> t >> m)
+    while (scanf("%d%d", &t, &m) != EOF)
         pq.push({t, m});
 
     int ods = ( (t2 - t1) / k ) + 1;
@@ -40,5 +40,5 @@ int main() {
         }
         ods--;
     }
-    cout << ansp << " " << ansf << endl;
+    printf("%d %d\n", ansp, ansf);
 }
