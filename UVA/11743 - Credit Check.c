@@ -14,10 +14,8 @@ int main(){
         }
         int x = 0;
         for(int k = 0; k < 4; k++){
-            num[x] = (cd[k][0] - '0')*2;
-            x++;
-            num[x] = (cd[k][2] - '0')*2;
-            x++;
+            num[x++] = (cd[k][0] - '0') * 2;
+            num[x++] = (cd[k][2] - '0') * 2;
         }
         
         for(int k = 0; k < 8; k++){
