@@ -8,10 +8,8 @@ int main(){
         ll ans = 0;
         while(d > 0){
             ans = s;
-            while(ans > 0){
-                ans--;
-                d--;
-            }
+            while(ans > 0)
+                ans--, d--;
             s++;
         }
         printf("%lld\n", s-1);
