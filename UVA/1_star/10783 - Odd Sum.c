@@ -11,7 +11,6 @@ int main(){
             if(i % 2 == 1) sum += i;
             else continue;
         }
-        printf("Case %d: %d\n", j, sum);
-        j++;
+        printf("Case %d: %d\n", j++, sum);
     }
 }
