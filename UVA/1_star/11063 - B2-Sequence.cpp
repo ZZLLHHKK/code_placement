@@ -37,9 +37,8 @@ int main() {
         }
 
         if (flag)
-            cout << "Case #" << cs++ << ": It is a B2-Sequence." << endl;
+            cout << "Case #" << cs++ << ": It is a B2-Sequence.\n" << endl;
         else
-            cout << "Case #" << cs++ << ": It is not a B2-Sequence." << endl;
-        cout << endl;
+            cout << "Case #" << cs++ << ": It is not a B2-Sequence.\n" << endl;
     }
 }
